@@ -5,6 +5,9 @@ import classes from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <div className={classes.navbar}>
+      <div>
+        <h1>Logo</h1>
+      </div>
       <NavLinks />
     </div>
   );
