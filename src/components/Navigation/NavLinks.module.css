@@ -1,0 +1,16 @@
+.Navlinkslist li{
+    list-style: none;
+    font-size: 22px;
+    padding: 15px;
+    
+}
+
+.btn{
+    margin-bottom: 15px;
+    border-radius: 40px;
+}
+
+.btn:hover{
+    background-color: rgb(132, 132, 146);
+    
+}
