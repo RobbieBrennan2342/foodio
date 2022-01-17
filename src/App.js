@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navigation/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
 import Card from "./components/UI/Card";
+import MobileNavBar from "./components/mobile/MobileNavBar";
 function App() {
   return (
     <Router>
@@ -13,6 +14,7 @@ function App() {
           </div>
         </Card>
       </div>
+      <MobileNavBar />
     </Router>
   );
 }

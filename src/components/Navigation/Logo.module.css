@@ -1,0 +1,13 @@
+.logoDiv{
+    width: 28%;
+    margin-bottom: 60px;
+    padding: 15px 20px; 
+    font-size: 22px;
+    border-bottom: 1px solid rgb(132, 132, 146);
+}
+
+.logoDiv a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}

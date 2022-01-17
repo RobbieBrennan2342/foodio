@@ -1,15 +1,15 @@
 import React from "react";
 import NavLinks from "./NavLinks";
-
+import Logo from "./Logo";
+import MobileNavBar from "../mobile/MobileNavBar";
 import classes from "./Navbar.module.css";
+
 const Navbar = () => {
   return (
-    <div className={classes.navbar}>
-      <div>
-        <h1>Logo</h1>
-      </div>
+    <nav className={classes.navbar}>
+      <Logo />
       <NavLinks />
-    </div>
+    </nav>
   );
 };
 
