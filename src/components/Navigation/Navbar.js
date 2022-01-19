@@ -1,7 +1,7 @@
 import React from "react";
 import NavLinks from "./NavLinks";
 import Logo from "./Logo";
-import MobileNavBar from "../mobile/MobileNavBar";
+import PostBtn from "../UI/PostBtn";
 import classes from "./Navbar.module.css";
 
 const Navbar = () => {
@@ -9,6 +9,7 @@ const Navbar = () => {
     <nav className={classes.navbar}>
       <Logo />
       <NavLinks />
+      <PostBtn name="Post" />
     </nav>
   );
 };
